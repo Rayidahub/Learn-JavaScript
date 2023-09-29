@@ -1,1 +1,7 @@
 This Directory was created to implemetent Counting and saving Function with Javascript
+
+
+
+# Raymond Gaius Yidawi
+
+# Freecodecamp
