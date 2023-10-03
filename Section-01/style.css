@@ -74,8 +74,8 @@ h1{
     font-weight: bold;
 }
 #number-display{
-    color: aqua;
-    margin-top: 35px;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
     font-family: fantasy;
     font-size: 80px ;
 }
@@ -108,6 +108,12 @@ h1{
     font-size: 10px;
     width: 300px;
 }
+#save-el{
+    margin-top: 10px;
+    color: black;
+}
+
+
 
 @media only screen and (min-width: 768px) {
     .container {
