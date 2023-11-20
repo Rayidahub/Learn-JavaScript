@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+  body{
+ background: linear-gradient(140deg, rgb(212, 7, 7), blue);
+    margin: 10px;
+    text-align: center;
+}
+
+.con-1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(243, 48, 48);
+    height: 30px;
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+.con-2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(253, 135, 38);
+    height: 30px;
+    width: 500px;
+
+}
+    /* }  
+.container{
+   background-color: blueviolet;
+    margin: 6px;
+    height: 740px;
+    width: 320px;
+}
+.header{
+    background:url(time.jpg);
+   
+    background-repeat:round;
+   
+    width: 320px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 200px;
+    
+    text-align: center;
+    padding-top: 10px;
+}
+.header h1{
+    color: rgb(216, 216, 216);
+    text-shadow: 2px 2px 3px rgb(255, 0, 0);
+}
+.content{
+    
+    width: 320px;
+    height: 450px;
+    text-align: center;
+    color: rgb(40, 40, 40);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#click{
+    border: 0px;
+    margin-top: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: rgb(216, 216, 216);
+    padding: 10px 70px 10px 80px; 
+}
+#click:hover{
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    
+    border: 0px;
+    color: white;
+    font-size: 15px;
+}
+h1{
+    margin-top: 20px;
+}
+#save{
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: rgb(55, 255, 152);
+    padding: 10px 100px 10px 100px;  
+}
+#save:hover{
+    background-color: rgb(0, 255, 8);
+    
+    border: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+#number-display{
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-family: fantasy;
+    font-size: 80px ;
+}
+#subtitle{
+
+    margin-top: 100px;
+    color: rgb(194, 243, 149);
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer{
+    background-color: black;
+    
+    width: 320px;
+    text-align: center;
+    padding-top: 20px;
+    
+    height: 80px;
+}
+#foot{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(129, 131, 131);
+}
+#text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(196, 195, 195);
+    text-align: justify;
+    margin-left: 10px;
+    font-size: 10px;
+    width: 300px;
+}
+#save-el{
+    margin-top: 10px;
+    color: black;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+    background-color: lightblue;
+    width: 768px;
+    height: 1024px;
+    } 
+    .header{
+        background:url(time.jpg);
+       background-repeat:round;
+        border: 2px solid rgb(40, 0, 151);
+        width: 768px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: 500px;
+        
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .container{
+        background-color: blueviolet;
+         margin: 6px;
+         height: 100vh;
+         width: 1024px;
+     }
+     .header{
+        background:url(time.jpg);
+        background-repeat:round;
+        width: 1024px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: 300px;
+         
+         text-align: center;
+         padding-top: 10px;
+     }
+     .header h1{
+         color: rgb(216, 216, 216);
+         text-shadow: 2px 2px 3px rgb(255, 0, 0);
+     }
+     .content{
+        display: block;
+        margin-top: 0px;
+         margin-left: 5%; 
+         width: 320px;
+         height: 450px;
+         color: rgb(40, 40, 40);
+         font-size: 20px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+     }
+     #click{
+         border: 0px;
+         text-align: center;
+         border-radius: 4px;
+         font-size: 15px;
+         background-color: rgb(216, 216, 216);
+         padding: 10px 400px 10px 400px; 
+     }
+     #click:hover{
+         font-weight: bold;
+         background-color: rgb(255, 0, 0);
+         
+         border: 0px;
+         color: white;
+         font-size: 15px;
+     }
+     h1{
+         margin-top: 20px;
+     }
+     #save{
+         border: 0px;
+        
+         margin-top: 10px;
+         border-radius: 4px;
+         font-size: 15px;
+         background-color: rgb(55, 255, 152);
+         padding: 10px 400px 10px 450px; 
+     }
+     #save:hover{
+         background-color: rgb(0, 255, 8);
+         
+         border: 0px;
+         color: rgb(0, 0, 0);
+         font-size: 15px;
+         font-weight: bold;
+     }
+     #number-display{
+        text-align: center;
+         color: rgb(4, 110, 110);
+         margin-top: 35px;
+         margin-left: 135%;
+         font-family: fantasy;
+         font-size: 80px ;
+     }
+     #subtitle{
+     
+         margin-top: 100px;
+         color: rgb(194, 243, 149);
+         text-shadow: 2px 2px 9px rgb(0, 0, 0);
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .footer{
+         background-color: black;
+         width: 1024px;
+         text-align: center;
+         padding-top: 20px;
+         
+         height: 80px;
+     }
+     #foot{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 12px;
+         color: rgb(129, 131, 131);
+     }
+     #text{
+        margin-top: 20px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         color: rgb(196, 195, 195);
+         text-align: center;
+         margin-left: 10px;
+         font-size: 10px;
+         width: 1000px;
+     } 
+} */
